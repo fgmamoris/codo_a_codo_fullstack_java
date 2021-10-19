@@ -1,0 +1,27 @@
+h1 {
+    margin: 0;
+    padding: 0
+}
+
+.cuadrado {
+    width: 22%;
+    height: 22vw;
+    background-color: red;
+    display: inline-block;
+    margin: 5px;
+    
+}
+.rojo { 
+    color: yellow
+}
+
+.cuadrado.negro{
+    color:white; 
+    background-color: black;
+        
+}
+.central {
+    display: flex;flex-wrap: wrap;
+    margin-left: 20px;
+        
+}

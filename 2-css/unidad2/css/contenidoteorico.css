@@ -1,0 +1,237 @@
+div {
+
+background-color: green;
+
+}
+span {
+
+background-color: red;
+
+}
+
+span.block {
+
+background-color: green;
+
+display: block;
+
+}
+span.inline-block {
+
+background-color: green;
+
+display: inline-block;
+
+}
+span.none {
+
+background-color: green;
+
+display: none;
+
+}
+
+.caja-width{
+    width: 120px;
+}
+caja-heigth{
+    height: 130px;
+}
+div.no-bg{
+    background-color:red
+}
+
+ .width-and-heigth {
+     
+
+background-color: blue;
+
+width: 120px;
+
+height: 130px;
+
+}
+.padding {
+    padding: 25px;
+}
+.padding-double {
+
+padding: 22px 30px;
+
+}
+.padding-color-w-h {
+
+background-color: blue;
+
+width: 120px;
+
+height: 130px;
+
+padding: 12px;
+
+}
+
+.margin {
+
+margin: 30px;
+
+}
+
+.margin-border {
+
+background-color: blue;
+
+width: 150px;
+
+height: 130px;
+
+padding: 12px;
+
+border: dotted 3px green;
+
+margin: 30px;
+
+}
+.box-sizing{
+background-color: blue;
+
+width: 150px;
+
+height: 130px;
+
+padding: 12px;
+
+border: solid 3px green;
+
+margin: 30px;
+
+box-sizing: border-box;
+
+}
+.transparent {
+    background-color: transparent
+}
+.caja {
+            display: flex;       
+      }      
+
+
+.uno,.dos,.tres{width: 50px;height: 50px;}
+
+ .uno {flex: 1 1 auto;background-color: red;}
+
+ .dos {flex: 1 1 auto;background-color: blue;}
+
+.tres{flex: 1 1 auto;background-color: purple;}
+
+
+#sinborde{width: 200px;height: 100px;background-color: yellow;}
+
+#borde{width: 200px;height: 100px;background-color: blue;border: 5px solid red;}
+
+#padding{width: 200px;height: 100px;background-color: green;padding-top: 10px;margin: auto;}
+
+#pruebapadding{width: 190px;height: 90px;background-color: red;}
+ .caja1 {background-color: red;width: 50px;height: 50px;}
+
+ .caja2 {background-color: blue;width: 50px;height: 50px;position: relative;left: 50px;bottom: 50px;}
+
+.caja3{background-color: red;width: 50px;height: 50px;}
+
+
+.caja4{background-color: yellow;width: 150px;height: 150px;}
+.caja5{background-color: green;width: 50px;height: 50px;position: absolute;left: 10px;}
+
+.contenedor-padre {
+display: flex;
+}
+  .flexbox {
+            display: flex;
+          }
+.flexbox-wrap {
+            display: flex;
+    flex-wrap: wrap;
+          }
+
+h1>div:hover {
+ background-color: #F89B4D;
+}
+
+  .box-row-reverse {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
