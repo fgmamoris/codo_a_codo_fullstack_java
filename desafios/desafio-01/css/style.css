@@ -1,0 +1,280 @@
+html {
+    height: 100%;
+    min-width: 100vh;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+    padding-right: 0.78rem;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar > a {
+    padding: 0.4rem;
+
+}
+
+#icon-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    color: grey;
+}
+
+#icon-apps:hover {
+    background-color: #e6e3e3;
+    border-radius: 50px;
+
+}
+
+.color-black {
+    color: black;
+}
+
+.no-undeline:hover {
+    text-decoration: none;
+}
+
+/* Tooltip container */
+.tooltip-apps {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Tooltip text */
+.tooltip-apps .tooltiptext-apps {
+    visibility: hidden;
+    width: 80px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    left: -10px;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-apps:hover .tooltiptext-apps {
+    visibility: visible;
+}
+
+.tooltip-apps .tooltiptext-apps::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+.button-login {
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none;
+}
+
+.button-login:hover {
+    background-color: #4387fd !important;
+}
+
+.logo-container {
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#icon-search {
+    color: grey;
+    margin: 5px;
+}
+
+#icon-mic {
+    color: darkblue;
+    margin: 5px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42rem;
+    height: 2.2rem;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.search-container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0)
+}
+
+.search-container:focus {
+    box-shadow: 1px 1px 3px grey
+}
+
+.search-input {
+    width: 90%;
+    height: 1.7rem;
+    border-style: none;
+}
+
+.search-input:focus {
+    outline: none;
+    border-style: none;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    left: -50px;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    width: 12rem;
+    height: 2.7rem;
+    font-size: 14px;
+    cursor: pointer;
+    color: grey;
+    border-style: none;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#footer {
+    height: 90px;
+    color: #70757a;
+    font-size: 1.1rem;
+    background-color: #f8f9fa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#footer a {
+    color: #70757a;
+    font-size: 1.1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-description {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left: 4.1rem;
+    justify-content: space-between
+}
+
+.footer-description-left {
+    width: 60%;
+}
+
+.footer-description-right {
+    padding-right: 3rem;
+}
