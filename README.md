@@ -26,7 +26,7 @@ Cada unidad cuenta con los ejercicios solicitados por la plataforma de Codo a Co
 10. [Autor :black_nib:](#autor-black_nib)
 
 
-## Trabajo práctico con Bootstrap y Js :wrench: 
+## Trabajo práctico con Bootstrap y JS :wrench: 
 
 _Replicar página brindada por la plaforma, incorporar en la sección tickets la funcionalidad de la misma en JavaScript_
 
@@ -37,7 +37,7 @@ _Front-End desplegado en: [GITHUB PAGES](https://www.git.com/)_
 **URL: https://fgmamoris.github.io/**
 
 
-## Anexo Back-End Activida modulo 2
+## Anexo Back-End actividad módulo 2
 
 [Back-end](https://github.com/fgmamoris/fullstack_java_modulo_back_unidad_2_CAC)
 
