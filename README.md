@@ -34,7 +34,7 @@ _Replicar página brindada por la plaforma, incorporar en la sección tickets la
 
 _Front-End desplegado en: [GITHUB PAGES](https://www.git.com/)_
 
-**URL: https://fgmamoris.github.io/**
+**URL: [https://fgmamoris.github.io/front-cac-fullstack](https://fgmamoris.github.io/front-cac-fullstack/)**
 
 
 ## Anexo Back-End actividad módulo 2
